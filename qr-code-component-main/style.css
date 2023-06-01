@@ -1,0 +1,15 @@
+img { 
+    min-height: 10%;
+  }
+body {
+  background-color: Light gray;
+}
+  .bodyimg {
+    font-size: 15px;
+    justify-content: center;
+    background-color: white;
+    align-content: center;
+  }
+
+.attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
