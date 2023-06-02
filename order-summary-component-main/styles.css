@@ -1,0 +1,52 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset CSS */
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+/* General Styling */
+:root{
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+img{
+    border-radius: 1.5rem;
+}
+body{
+    font-family: var(--Dark-blue);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--Pale-blue);
+  }
+
+  main{
+    background-color: var(--Very-pale-blue);
+    width: 100%;
+    max-width: 500px;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    display: grid;
+    gap: 1rem;
+  }
+
+p {
+    font-size: 16px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

@@ -59,7 +59,7 @@ main > img{
   border-radius: 1rem;
 }
 
-.main__description{
+.content{
   display: grid;
   gap: 1rem;
   padding: 0.8rem;
@@ -67,6 +67,7 @@ main > img{
 
 h1{
   font-size: 1.5rem;
+  text-align: center;
 }
 
 p{
