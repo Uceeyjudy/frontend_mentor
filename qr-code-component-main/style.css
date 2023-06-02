@@ -1,15 +1,46 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
 img { 
-    min-height: 10%;
+    border-radius: 1.5rem;
+    display: block;
+    width: 100%;
   }
 body {
   background-color: Light gray;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
-  .bodyimg {
-    font-size: 15px;
-    justify-content: center;
-    background-color: white;
-    align-content: center;
-  }
-
-.attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); }
+main {
+  background-color: white;
+  width: 90%;
+  max-width: 460px;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+.content{
+  display: grid;
+  gap: 1rem;
+  padding: 0.8rem;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h1, p{
+  text-align: center;
+}
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
