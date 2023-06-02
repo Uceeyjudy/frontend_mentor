@@ -1,24 +1,52 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset CSS */
 *, *::before, *::after{
   box-sizing: border-box;
 }
+
 *{
   padding: 0;
   margin: 0;
 }
-img { 
-    border-radius: 1.5rem;
-    display: block;
-    width: 100%;
-  }
-body {
-  background-color: Light gray;
+
+img, svg, video, canvas{
+  display: block;
+  width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+  overflow-wrap: break-word;
+}
+
+body{
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* General Styling */
+:root{
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+
+  --ff-main: 'Outfit', sans-serif;
+}
+
+body{
+  font-family: var(--ff-main);
   display: grid;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  background-color: var(--Light-gray);
 }
-main {
-  background-color: white;
+
+main{
+  background-color: var(--White);
   width: 90%;
   max-width: 460px;
   padding: 1.5rem;
@@ -26,15 +54,22 @@ main {
   display: grid;
   gap: 1rem;
 }
-.content{
+
+main > img{
+  border-radius: 1rem;
+}
+
+.main__description{
   display: grid;
   gap: 1rem;
   padding: 0.8rem;
 }
-h1 {
+
+h1{
   font-size: 1.5rem;
 }
-h1, p{
+
+p{
   text-align: center;
 }
 .attribution { 
