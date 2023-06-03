@@ -37,11 +37,27 @@ body{
     padding: 1.5rem;
     border-radius: 1.5rem;
     display: grid;
-    gap: 1rem;
+    gap: 1.5rem;
+    justify-items: center;
+    text-align: center;
+    margin: 1.5rem;
   }
-
+  .summary{
+    display: grid;
+  }
+.price{
+    display: grid;
+}
 p {
     font-size: 16px;
+}
+.btn{
+    display: grid;
+    padding: 0.6rem;
+    border-radius: 1rem;
+}
+#pay{
+    background-color: var(--Bright-blue);
 }
 .attribution { 
     font-size: 11px; 
