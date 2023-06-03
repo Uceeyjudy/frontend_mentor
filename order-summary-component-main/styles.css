@@ -28,6 +28,8 @@ body{
     justify-content: center;
     min-height: 100vh;
     background-color: var(--Pale-blue);
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
   }
 
   main{
