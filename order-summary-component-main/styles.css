@@ -44,22 +44,49 @@ body{
     text-align: center;
     margin: 1.5rem;
   }
-  .summary{
-    display: grid;
-  }
+main{
+/* no need to use "padding" and "margin" */;
+/* add overflow property*/
+overflow : hidden;
+}
+
+main > img{
+/* no need to use border-radius*/
+/* add width property */
+width : 100%;
+}
+
+.summary{
+/* add "padding" property*/
+padding: 0 1rem;
+} 
+/* update the price class*/
 .price{
-    display: grid;
-}
-p {
-    font-size: 16px;
-}
-.btn{
-    display: grid;
-    padding: 0.6rem;
-    border-radius: 1rem;
+display : flex;
+align-items : center;
+justify-content: center;
+gap: 1rem;
+padding : 0 1rem;
 }
 #pay{
-    background-color: var(--Bright-blue);
+/* add "width" property*/
+width : 80%;
+color : white;
+}
+
+.btn{
+/* add this*/
+border: none;
+outline: none;
+cursor: pointer;
+/* update this*/
+border-radius: .5rem;
+/* no need to  "display" property*/
+}
+
+.cancel{
+background-color : transparent;
+color : blue;
 }
 .attribution { 
     font-size: 11px; 
